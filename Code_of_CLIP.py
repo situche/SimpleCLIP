@@ -11,7 +11,7 @@ from PIL import Image
 
 class SimpleCLIP(nn.Module):
     def __init__(self, dim=512):
-        super(SimpleCLIP, self).__init__()
+        super(SimpleCLIP, self)。__init__()
         self.img_encoder = resnet50(pretrained=True)
         self.text_encoder = AutoModelForCausalLM.from_pretrained("openai-community/gpt2")
         self.img_projection = nn.Linear(self.img_encoder.fc.out_features, dim)
