@@ -103,7 +103,26 @@ criterion = nn.CrossEntropyLoss()
 train_with_single_gpu(model, train_dataloader, device)
 
 # 输出
-
+Epoch [1/10], Loss: 2.782424723204875
+Epoch [1/10], eval accuracy: 42.76%
+Epoch [2/10], Loss: 2.208075152936523
+Epoch [2/10], eval accuracy: 59.30%
+Epoch [3/10], Loss: 1.6554638086144222
+Epoch [3/10], eval accuracy: 68.06%
+Epoch [4/10], Loss: 1.1145754122716067
+Epoch [4/10], eval accuracy: 75.01%
+Epoch [5/10], Loss: 0.7005514964225038
+Epoch [5/10], eval accuracy: 77.70%
+Epoch [6/10], Loss: 0.46019971387949815
+Epoch [6/10], eval accuracy: 80.36%
+Epoch [7/10], Loss: 0.3631114686166283
+Epoch [7/10], eval accuracy: 80.35%
+Epoch [8/10], Loss: 0.31267675394818223
+Epoch [8/10], eval accuracy: 81.18%
+Epoch [9/10], Loss: 0.2845442548756137
+Epoch [9/10], eval accuracy: 81.34%
+Epoch [10/10], Loss: 0.26020754685565894
+Epoch [10/10], eval accuracy: 81.69%
 ```
 
 ## 许可证
