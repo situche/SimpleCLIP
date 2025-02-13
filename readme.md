@@ -102,7 +102,7 @@ criterion = nn.CrossEntropyLoss()
     
 train_with_single_gpu(model, train_dataloader, device)
 
-# 输出
+# output
 Epoch [1/10], Loss: 2.782424723204875
 Epoch [1/10], eval accuracy: 42.76%
 Epoch [2/10], Loss: 2.208075152936523
